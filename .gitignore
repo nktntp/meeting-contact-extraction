@@ -1,0 +1,10 @@
+__pycache__
+.env
+
+*.ipynb
+
+cdk.out
+
+q*
+
+.DS_Store

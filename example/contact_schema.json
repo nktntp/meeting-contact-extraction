@@ -1,0 +1,22 @@
+[
+    {
+        "name": "FirstName",
+        "type": "string",
+	    "description": "The contact's first name"
+    },
+    {
+        "name": "LastName",
+        "type": "string",
+	    "description": "The contact's last name"
+    },
+    {
+        "name": "Title",
+        "type": "string",
+	    "description": "Title of the contact, such as CEO or Vice President"
+    },
+    {
+        "name": "Department",
+        "type": "string",
+        "description": "The associated business or organizational unit"
+    }
+]

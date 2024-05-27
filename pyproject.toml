@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "revenue-grid"
+version = "0.1.0"
+description = ""
+authors = ["netipa <nktntp@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" },
+    { include = "summarizer", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.2.1"
+webvtt-py = "^0.5.0"
+langchain-community = "^0.2.1"
+openai = "^1.30.2"
+flake8-pyproject = "^1.2.3"
+python-dotenv = "^1.0.1"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+aws-cdk-lib = "^2.143.0"
+simple-salesforce = "^1.12.6"
+langsmith = "^0.1.63"
+tiktoken = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.2.1"
+pytest-asyncio = "^0.23.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
